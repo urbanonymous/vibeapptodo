@@ -1,0 +1,305 @@
+{
+  "steps": [
+    {
+      "number": 1,
+      "title": "Ship an MVP same day",
+      "description": "Use Claude Code / Rork / vibecoding to get a first MVP live the same day the idea forms.",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [
+        {
+          "id": "s1_r1",
+          "type": "tool",
+          "title": "Claude",
+          "url": "https://claude.ai",
+          "description": "Prompt + iterate quickly on an MVP."
+        }
+      ],
+      "external_links": []
+    },
+    {
+      "number": 2,
+      "title": "Tighten logic and edge cases",
+      "description": "Use Claude Code to tighten logic, handle edge cases, and make behavior predictable.",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [
+        {
+          "id": "s2_r1",
+          "type": "article",
+          "title": "Edge cases checklist (template)",
+          "url": "https://en.wikipedia.org/wiki/Edge_case",
+          "description": "Use as a starting point for a QA mindset."
+        }
+      ],
+      "external_links": []
+    },
+    {
+      "number": 3,
+      "title": "Design for a 10-second demo",
+      "description": "Design the core interaction so it fits inside a 10-second screen recording from day one.",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [
+        {
+          "id": "s3_r1",
+          "type": "video",
+          "title": "Short-form storytelling basics (search)",
+          "url": "https://www.youtube.com/results?search_query=short+form+video+hook+first+3+seconds",
+          "description": "Study hook patterns relevant to your category."
+        }
+      ],
+      "external_links": []
+    },
+    {
+      "number": 4,
+      "title": "Study top short-form hooks",
+      "description": "Study top short-form videos in your category and write down the first 3 seconds of each.",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 5,
+      "title": "Build demos around the hook",
+      "description": "Build demos around the hook rather than the feature list (mindset shift).",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 6,
+      "title": "Record simple demos and post",
+      "description": "Record simple demos straight from the simulator or device and post them as is.",
+      "phase": "Phase 1: MVP Launch",
+      "resources": [],
+      "external_links": []
+    },
+
+    {
+      "number": 7,
+      "title": "Short-form as feedback channel",
+      "description": "Treat short-form video as a live feedback channel (very important).",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 8,
+      "title": "Test hooks before code",
+      "description": "Test multiple hooks for the same app before touching the code.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 9,
+      "title": "Watch pauses and replays",
+      "description": "Watch where people pause, replay, or comment “wait what” to see what matters.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 10,
+      "title": "Screenshot clarifying comments",
+      "description": "Screenshot comments that explain the product clearly and reuse that language.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 11,
+      "title": "Cluster feedback into changes",
+      "description": "Paste comments into Claude Code and ask it to cluster feedback into concrete product changes.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 12,
+      "title": "Ship the smallest clarity change",
+      "description": "Ship the smallest change that makes the demo clearer.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 13,
+      "title": "Push changes fast and re-record",
+      "description": "Use Claude Code to push changes fast and re-record the demo the same day.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 14,
+      "title": "Repeat until it explains itself",
+      "description": "Repeat this loop daily until the app explains itself without narration.",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 15,
+      "title": "Demo becomes distribution",
+      "description": "Let the demo become the distribution engine (north star).",
+      "phase": "Phase 2: Demo & Hooks",
+      "resources": [],
+      "external_links": []
+    },
+
+    {
+      "number": 16,
+      "title": "Add a paywall to test WTP",
+      "description": "Add a paywall once curiosity appears to test willingness to pay.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [
+        {
+          "id": "s16_r1",
+          "type": "doc",
+          "title": "RevenueCat docs (paywalls)",
+          "url": "https://www.revenuecat.com/docs",
+          "description": "Common paywall + subscription implementation patterns."
+        }
+      ],
+      "external_links": []
+    },
+    {
+      "number": 17,
+      "title": "Onboarding quiz (1 question)",
+      "description": "Add a one-question or short quiz in onboarding to create investment early.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 18,
+      "title": "Personalize first output",
+      "description": "Use quiz answers to personalize the first output so it feels made for the user.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 19,
+      "title": "Show result immediately",
+      "description": "Show the result immediately after onboarding to reinforce that the input mattered.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 20,
+      "title": "One clear insight post-first-use",
+      "description": "Surface one clear “this is why this matters” insight right after first use.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 21,
+      "title": "Save first output",
+      "description": "Save the first output so users feel ownership and return to it.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 22,
+      "title": "Ask one follow-up action",
+      "description": "Ask for one small follow-up action after value appears to deepen commitment.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 23,
+      "title": "Turn answers into new demo angles",
+      "description": "Turn common onboarding answers into new demo angles for content.",
+      "phase": "Phase 3: Feedback Loop",
+      "resources": [],
+      "external_links": []
+    },
+
+    {
+      "number": 24,
+      "title": "Show progress over time",
+      "description": "Highlight progress or change over time with a simple before-and-after view.",
+      "phase": "Phase 4: Monetization",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 25,
+      "title": "Trigger reengagement on meaningful change",
+      "description": "Trigger reengagement when the output meaningfully changes.",
+      "phase": "Phase 4: Monetization",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 26,
+      "title": "Export/share with context",
+      "description": "Let users export or share their result in a way that preserves context (and drives virality).",
+      "phase": "Phase 4: Monetization",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 27,
+      "title": "Improve onboarding copy",
+      "description": "Continuously improve onboarding copy with Claude Code based on what converts.",
+      "phase": "Phase 4: Monetization",
+      "resources": [],
+      "external_links": []
+    },
+
+    {
+      "number": 28,
+      "title": "Lock in the hook",
+      "description": "Lock in the hook when people start explaining the app to each other.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 29,
+      "title": "Increase posting volume",
+      "description": "Increase posting volume after the format proves consistent. Keep experimenting.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 30,
+      "title": "Shape product around what performs",
+      "description": "Shape the product around what performs on video.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 31,
+      "title": "Ship → demo → observe → tighten → charge",
+      "description": "TLDR: Ship → demo → observe reactions → tighten the loop → charge → repeat until momentum compounds.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 32,
+      "title": "PMF incoming (hopefully)",
+      "description": "If PMF is incoming: take dividends, reinvest in new apps (buy or build), or raise VC if you fancy that.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    },
+    {
+      "number": 33,
+      "title": "You built a mobile app with AI",
+      "description": "You just built a mobile app with AI.",
+      "phase": "Phase 5: Scale & PMF",
+      "resources": [],
+      "external_links": []
+    }
+  ]
+}
+
