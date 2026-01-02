@@ -11,6 +11,15 @@ def init_firebase() -> None:
     if firebase_admin._apps:
         return
 
+    # Try to load from file first
+    try:
+        cred = credentials.Certificate("/app/firebase.json")
+        firebase_admin.initialize_app(cred)
+        return
+    except (FileNotFoundError, ValueError):
+        pass
+
+    # Fallback: load from environment variable
     if settings.firebase_service_account_json:
         cred_dict = json.loads(settings.firebase_service_account_json)
         cred = credentials.Certificate(cred_dict)

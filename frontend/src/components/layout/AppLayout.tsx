@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import { Button } from "../ui/Button";
+import { UserAvatar } from "../ui/UserAvatar";
 import { signOut } from "firebase/auth";
-import { auth } from "../../lib/firebase";
+import { auth } from "../../lib/firebase_config";
 
 export function AppLayout({ title, children }: { title: string; children: React.ReactNode }) {
   const { user } = useAuth();
@@ -16,7 +17,7 @@ export function AppLayout({ title, children }: { title: string; children: React.
             <div className="font-semibold tracking-tight">VibeTracker</div>
           </Link>
           <div className="flex items-center gap-3">
-            <div className="hidden text-sm text-muted sm:block">{user?.email}</div>
+            {user && <UserAvatar user={user} />}
             <Button
               variant="ghost"
               onClick={() => {
